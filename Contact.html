@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+	<meta charset="UTF-8">
+		<title>Contactanos</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- This is the second form for 
+		use css-->
+	</head>
+<body>
+	<div id="container">
+	<div id="contactcontainer">
+		<h1>Contactanos</h1>
+
+		<form>
+			<p>
+				<input type="radio" name="servicio" value="cliente" checked> Cliente
+				<br>
+				<input type="radio" name="servicio" value="particular"> Particular
+			</p>
+			
+			<label>Motivo del Mensaje</label>
+				<select name="motivo" class="select-form">
+					<option>Quejas</option>
+					<option>Sugerencias</option>
+					<option>Soporte Técnico</option>
+					<option>Nuevo Servicio</option>
+					<option selected="selected">--Seleccionar--</option>
+				</select>
+			<br>
+			<br>
+				<div class="divcontact">
+					<label>Nombre:</label>
+				</div>
+				<input class="select-form" id="nombre" type="text" name="nombre"/>
+				<br>
+				<br>
+				<div class="divcontact">
+					<label>Email:</label>
+				</div>
+				<input class="select-form" id="email" type="text" name="email"/>
+
+				<br>
+				<br>
+				<label>Deja tu comentario..</label>
+			
+
+			<p>
+				<textarea name="comentario"
+					cols="100" rows="10">
+				</textarea>
+			</p>
+
+			<p>
+				<input class="value" type="submit" value="enviar mensaje"/>
+				<input class="value" type="reset" value="limpiar datos"/>
+			</p>
+			<br>
+			<br>
+		</form>
+		</div>
+	<br>
+</div>
+	
+	<iframe src="Templates/Foot.html" class="foot"></iframe>
+	
+</body>
+</html>
